@@ -1,6 +1,7 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
-import Acciones from './componentes/Acciones.tsx';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Acciones from './componentes/Acciones'; // relativo a App.js
+
 
 function App() {
   return (
@@ -11,6 +12,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
 
 export default App;

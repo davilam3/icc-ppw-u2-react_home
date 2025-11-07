@@ -8,16 +8,16 @@ function Acciones() {
   // Contador automático
   useEffect(() => {
     const interval = setInterval(() => {
-      setAutoCounter((prev: number) => prev + 1);
+      setAutoCounter((prev) => prev + 1);
     }, 1000);
 
     return () => clearInterval(interval);
   }, []);
 
   // Incrementar / Restar
-  const changeValue = (value: number) => {
-    setAutoCounter((current: number) => current + value);
-    setManualCounter((current: number) => current + value);
+  const changeValue = (value) => {
+    setAutoCounter((current) => current + value);
+    setManualCounter((current) => current + value);
   };
 
   // Reset
