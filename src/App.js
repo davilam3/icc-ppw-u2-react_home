@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Acciones from './componentes/Acciones'; // relativo a App.js
-
+import Acciones from './componentes/Acciones';
 
 function App() {
   return (
