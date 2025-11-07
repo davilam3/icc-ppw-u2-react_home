@@ -4,12 +4,13 @@ import Acciones from './componentes/Acciones.tsx';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/icc-ppw-u2-react_home">
       <Routes>
         <Route path="/" element={<Acciones />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
+
 
 export default App;
